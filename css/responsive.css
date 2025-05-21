@@ -1,0 +1,86 @@
+@media screen and (max-width:640px) {
+    body{
+       min-width: 0;
+    }
+    .abrir{
+        display: block;
+        width: 100px;
+        background-color: black;
+        color: white;
+        border: none;
+        top: 15px;
+        right: 0;
+        height: 50px;
+    }
+    .mostrar{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 50px;
+        width: 50px;
+        height: 350px;
+        
+    }
+    .mostrar ul{
+        display: block;
+        
+    }
+    .mostrar ul li{
+        margin-bottom: 5px;
+    }
+    .mostrar ul ul{
+        display: none;
+    }
+
+    header .login{
+        right: 80px;
+    }
+    header .lupa{
+        right:260px;
+    }
+    nav{
+        display: none;
+    }
+    .titulo{
+        top: 150px;
+        
+    }
+    .titulo, .breadcrumb{
+        left: 50px;
+    }
+    .imagenMov{
+        width: 150px;
+        height: 160px;
+        left: 60%;
+    }
+    main{
+        min-width: 0;
+
+    }
+    .segundo{
+        display: block;
+        width: 150px;
+    }
+    .cuadro1{
+        width: 100%;
+    }
+    .cuadro2{
+        background-color: black;
+        background-image: none;
+    }
+    .cuadro2 article{
+        width: 15%;
+        padding-left: 0;
+        padding-right:0 ;
+        margin-left: 0;
+    }
+    .viveahora{
+        display: block;
+    }
+    footer{
+        display: block;
+    }
+    .footer1, .footer2, .footer3, .footer4{
+        width: 100%;
+    }
+}
